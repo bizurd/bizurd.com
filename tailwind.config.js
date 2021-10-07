@@ -13,33 +13,33 @@ module.exports = {
     },
     extend: {
       animation: {
-       'swing': 'swing 1.5s ease-in-out infinite',
+        swing: 'swing 1.5s ease-in-out infinite',
       },
       keyframes: {
         swing: {
           '20%': {
-            transform: 'rotate3d(0, 0, 1, 15deg)'
+            transform: 'rotate3d(0, 0, 1, 15deg)',
           },
-        
+
           '40%': {
-            transform: 'rotate3d(0, 0, 1, -10deg)'
+            transform: 'rotate3d(0, 0, 1, -10deg)',
           },
-        
+
           '60%': {
-            transform: 'rotate3d(0, 0, 1, 5deg)'
+            transform: 'rotate3d(0, 0, 1, 5deg)',
           },
-        
+
           '80%': {
-            transform: 'rotate3d(0, 0, 1, -5deg)'
+            transform: 'rotate3d(0, 0, 1, -5deg)',
           },
-        
-          'to': {
-            transform: 'rotate3d(0, 0, 1, 0deg)'
+
+          to: {
+            transform: 'rotate3d(0, 0, 1, 0deg)',
           },
-        }
-       }
-    }
+        },
+      },
+    },
   },
   mode: 'jit',
   purge: ['./public/**/*.html', './src/**/*.{astro,js,jsx,svelte,ts,tsx,vue}'],
-};
+}
