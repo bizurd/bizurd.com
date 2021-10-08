@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import BizurdTitle from './components/BizurdTitle.vue'
+import HandWave from './components/HandWave.vue'
+</script>
+
 <template>
   <main
     class="
@@ -12,10 +17,11 @@
     "
   >
     <header class="text-center">
-      <h1 class="font-extrabold text-8xl flex items-center">
-        Bizurd
-        <span class="ml-4 text-6xl animate-swing origin-bottom-right">👋</span>
-      </h1>
+      <div class="flex items-center">
+        <BizurdTitle />
+        <HandWave class="ml-4" />
+      </div>
+
       <p class="font-extrabold text-2xl">
         <span>Absurd</span>
         <span>+</span>
