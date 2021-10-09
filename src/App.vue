@@ -17,17 +17,17 @@ import HandWave from './components/HandWave.vue'
       to-blue-500
     "
   >
-    <header class="text-center">
-      <div class="flex items-center">
+    <div class="flex flex-col items-center">
+      <header class="flex items-center">
         <BizurdTitle />
         <HandWave class="ml-4" />
-      </div>
+      </header>
 
-      <BizurdExplanation class="mt-8" />
+      <BizurdExplanation class="mt-3 md:mt-8" />
 
-      <p class="text-2xl text-gray-900 mt-12 font-extrabold">
+      <p class="text-xl md:text-2xl text-gray-900 mt-6 md:mt-12 font-extrabold">
         Coming soon!! 😉
       </p>
-    </header>
+    </div>
   </main>
 </template>
