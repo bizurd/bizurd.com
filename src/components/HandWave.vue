@@ -1,3 +1,3 @@
 <template>
-  <span class="text-6xl animate-swing origin-bottom-right">👋</span>
+  <span class="text-7xl animate-swing origin-bottom-right">👋</span>
 </template>

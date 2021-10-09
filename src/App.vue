@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import BizurdTitle from './components/BizurdTitle.vue'
+import BizurdExplanation from './components/BizurdExplanation.vue'
 import HandWave from './components/HandWave.vue'
 </script>
 
@@ -22,12 +23,10 @@ import HandWave from './components/HandWave.vue'
         <HandWave class="ml-4" />
       </div>
 
-      <p class="font-extrabold text-2xl">
-        <span>Absurd</span>
-        <span>+</span>
-        <span>Bizarre</span>
-        <span>=</span>
-        <span>Bizurd</span>
+      <BizurdExplanation class="mt-8" />
+
+      <p class="text-2xl text-gray-900 mt-12 font-extrabold">
+        Coming soon!! 😉
       </p>
     </header>
   </main>

@@ -1,16 +1,7 @@
+<script setup lang="ts">
+import StyledGlowingText from './Styled/StyledGlowingText.vue'
+</script>
+
 <template>
-  <h1
-    v-motion
-    class="font-extrabold text-8xl"
-    :initial="{
-      x: -100,
-      opacity: 0.3,
-    }"
-    :enter="{
-      x: 0,
-      opacity: 1,
-    }"
-  >
-    Bizurd
-  </h1>
+  <StyledGlowingText text="Bizurd" class="text-9xl font-extrabold" />
 </template>
